@@ -1,7 +1,7 @@
 class CaixaDaLanchonete {
     //Itens e seus respectivos preços
     const cardapio = {
-        "Cafe" : 3.00,
+        "Café" : 3.00,
         "Chantily (extra do cafe)" : 1.50,
         "Suco Natural" : 6.20,
         "Sanduiche" : 6.50,
