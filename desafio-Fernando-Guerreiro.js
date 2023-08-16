@@ -40,7 +40,7 @@ class CaixaDaLanchonete {
             if(item !== "Combo1 - 1 suco e 1 sanduiche" && item !== "Combo2 - 1 café e 1 sanduiche") {
                 temItemPrincipal = true;
             }
-            total += carpadio[item] * itens[item];
+            total += cardapio[item] * itens[item];
         }
         if(!temItemPrincipal) {
             return "Não há itens no carrinho de compra!";
